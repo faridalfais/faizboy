@@ -1,0 +1,21 @@
+button a {
+  background-color: transparent;
+  border: none;
+  border-radius: 50px;
+  color: floralwhite;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+button a:hover {
+  color: black  ;
+}
+button a:active {
+  color: gold;
+  box-shadow: 0 5px dimgrey;
+  transform: translateY(2px);
+}

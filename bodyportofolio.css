@@ -1,0 +1,19 @@
+a {
+    background-color: transparent; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    padding: 5px 10px; /* Padding */
+    border: none; /* Tanpa border */
+    border-radius: 5px; /* Sudut membulat */
+    cursor: pointer; /* Kursor berubah saat hover */
+    font-size: 20px; /* Ukuran font */
+    transition: background-color 0.3s; /* Transisi halus */
+}
+
+a:hover {
+    color: floralwhite; /* Warna saat hover */
+}
+
+a:active {
+    color: gold; /* Warna saat ditekan */
+    transform: translateY(2px); /* Efek sedikit turun saat ditekan */
+}

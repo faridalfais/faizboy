@@ -1,0 +1,19 @@
+li a {
+    background-color: transparent; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    padding: 5px 10px; /* Padding */
+    border: none; /* Tanpa border */
+    border-radius: 3px; /* Sudut membulat */
+    cursor: pointer; /* Kursor berubah saat hover */
+    font-size: 16px; /* Ukuran font */
+    transition: background-color 0.3s; /* Transisi halus */
+}
+
+li a:hover {
+    color: black; /* Warna saat hover */
+}
+
+li a:active {
+    color: gold; /* Warna saat ditekan */
+    transform: translateY(2px); /* Efek sedikit turun saat ditekan */
+}
